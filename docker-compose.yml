@@ -1,0 +1,12 @@
+version: '3'
+services:
+  healthcheck:
+    container_name: healthcheck
+    build: .
+    ports: 
+      - 8295:8295 
+    restart: on-failure
+    volumes:
+      - healthcheck:/usr/src/app/
+volumes:
+  healthcheck:
