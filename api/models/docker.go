@@ -4,6 +4,6 @@ import "time"
 
 type Docker struct {
 	Name      string
-	Status    bool
+	Running   bool
 	CheckedAt time.Time
 }
