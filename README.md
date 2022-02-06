@@ -1,5 +1,5 @@
 # Projeto healthcheck utilizando Go Lang
-# Configurar no arquivo .env a rota na qual será utilizada pra teste
+Configurar no arquivo .env a rota na qual será utilizada pra teste
 # Para Rodar o projeto
 Entrar na pasta healthcheck no local onde foi clonado o projeto e rodar o comando no terminal
 ```
